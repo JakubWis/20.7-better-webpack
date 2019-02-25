@@ -1,8 +1,9 @@
 import React from 'react';
 
 const title = (props) => (
+
 	<>
-		<h1>Todo (0)</h1>
+		<h1>Todo ({props.howMany})</h1>
 	</>
 );
 
